@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { getFavoriteDrinks } from "../redux/drinks"
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getFavoriteDrinks } from "../redux/drinks";
+import { Link } from 'react-router-dom';
 
 const AllFavorites = () => {
   const user = useSelector(state => state.user)
@@ -29,4 +29,4 @@ const AllFavorites = () => {
   )
 }
 
-export default AllFavorites
+export default AllFavorites;
